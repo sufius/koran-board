@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" media="screen, print" href="styles.css" />
+    <title>Koran-Board</title>
+</head>
+<body>
+    <div class="page">
+        <div class="element"></div>
+        <div class="element2"></div>
+        <div class="element3"></div>
+    </div>
+    <script type="text/javascript">
+        // window.print();
+        var pixelsPerInch = 96;
+        var pageHeightInCentimeter = 29.7; // must match 'min-height' from 'css/sheets-of-paper-*.css' being used
+        var pageMarginBottomInCentimeter = 2; // must match 'padding-bottom' and 'margin-bottom' from 'css/sheets-of-paper-*.css' being used
+        var inchPerCentimeter = 0.393701;
+        var pageHeightInInch = pageHeightInCentimeter * inchPerCentimeter;
+        var pageHeightInPixels = Math.ceil(pageHeightInInch * pixelsPerInch);
+        var pageMarginBottomInInch = pageMarginBottomInCentimeter * inchPerCentimeter;
+        var pageMarginBottomInPixels = Math.ceil(pageMarginBottomInInch * pixelsPerInch);
+    </script>
+</body>
+</html>
