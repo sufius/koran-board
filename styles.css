@@ -1,117 +1,229 @@
-html, body {
-	/* Reset the document's margin values */
-	margin: 0;
-	/* Reset the document's padding values */
-	padding: 0;
-	/* Use the platform's native font as the default */
-	font-family: "Roboto", -apple-system, "San Francisco", "Segoe UI", "Helvetica Neue", sans-serif;
-	/* Define a reasonable base font size */
-	font-size: 12pt;
+html,
+body {
+  /* Styles for better appearance on screens only -- are reset to defaults in print styles later */
 
-	/* Styles for better appearance on screens only -- are reset to defaults in print styles later */
-
-	/* Use a non-white background color to make the content areas stick out from the full page box */
-	background-color: #eee;
+  /* Reset the document's margin values */
+  margin: 0;
+  /* Reset the document's padding values */
+  padding: 0;
+  /* Use a non-white background color to make the content areas stick out from the full page box */
+  background-color: #eee;
 }
 
 /* Styles that are shared by all elements */
 * {
-	/* Include the content box as well as padding and border for precise definitions */
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
+  /* Include the content box as well as padding and border for precise definitions */
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 .page {
-	/* Styles for better appearance on screens only -- are reset to defaults in print styles later */
+  /* Styles for better appearance on screens only -- are reset to defaults in print styles later */
 
-	/* Divide single pages with some space and center all pages horizontally */
-	margin: 1cm auto;
-	/* Define a white paper background that sticks out from the darker overall background */
-	background: #fff;
-	/* Override outline from user agent stylesheets */
-	outline: 0;
+  /* Divide single pages with some space and center all pages horizontally */
+  margin: 1cm auto;
+  /* Define a white paper background that sticks out from the darker overall background */
+  background: #fff;
+  /* Override outline from user agent stylesheets */
+  outline: 0;
 }
 
 /* When the document is actually printed */
 @media print {
-	html, body {
-		/* Reset the document's background color */
-		background-color: #fff;
-	}
-	.page {
-		/* Reset all page styles that have been for better screen appearance only */
-		/* Break cascading by using the !important rule */
-		/* These resets are absolute must-haves for the print styles and the specificity may be higher elsewhere */
-		width: initial !important;
-		min-height: initial !important;
-		margin: 0 !important;
-		padding: 0 !important;
-		border: initial !important;
-		border-radius: initial !important;
-		background: initial !important;
-		/* box-shadow: initial !important; */
+  html,
+  body {
+    /* Reset the document's background color */
+    background-color: #fff;
+  }
+  .page {
+    /* Reset all page styles that have been for better screen appearance only */
+    /* Break cascading by using the !important rule */
+    /* These resets are absolute must-haves for the print styles and the specificity may be higher elsewhere */
+    width: initial !important;
+    min-height: initial !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: initial !important;
+    border-radius: initial !important;
+    background: initial !important;
+    /* box-shadow: initial !important; */
     /* box-shadow: inset 0.1mm 0.1mm red; */
     /* border: 1px solid red; */
     outline: dashed darkorange;
 
-		/* Force page breaks after each .page element of the document */
-		page-break-after: always;
+    /* Force page breaks after each .page element of the document */
+    page-break-after: always;
     -webkit-print-color-adjust: exact;
-	}
+  }
 }
 
 .page {
-	/* Styles for better appearance on screens only -- are reset to defaults in print styles later */
+  /* Styles for better appearance on screens only -- are reset to defaults in print styles later */
   height: 100%;
 
   /* Reflect the paper width in the screen rendering (must match size from @page rule) */
-	width: 297mm;
-	/* Reflect the paper height in the screen rendering (must match size from @page rule) */
-	min-height: 210mm;
+  width: 297mm;
+  /* Reflect the paper height in the screen rendering (must match size from @page rule) */
+  min-height: 210mm;
 
-	/* Reflect the actual page margin/padding on paper in the screen rendering (must match margin from @page rule) */
-	padding-left: 4.3mm;
-	padding-top: 4.3mm;
-	padding-right: 4.3mm;
-	padding-bottom: 4.3mm;
+  /* Reflect the actual page margin/padding on paper in the screen rendering (must match margin from @page rule) */
+  padding-left: 4.3mm;
+  padding-top: 4.3mm;
+  padding-right: 4.3mm;
+  padding-bottom: 4.3mm;
+
+  position: relative;
+  outline: 1mm dashed darkorange;
 }
 
 /* Use CSS Paged Media to switch from continuous documents to sheet-like documents with separate pages */
 @page {
-	/* You can only change the size, margins, orphans, widows and page breaks here */
+  /* You can only change the size, margins, orphans, widows and page breaks here */
 
-	/* Paper size and page orientation */
-	size: 297mm 210mm;
+  /* Paper size and page orientation */
+  size: 297mm 210mm;
 
-	/* Margin per single side of the page */
-	margin-left: 4.3mm;
-	margin-top: 4.3mm;
-	margin-right: 4.3mm;
-	margin-bottom: 4.3mm;
+  /* Margin per single side of the page */
+  margin-left: 4.3mm;
+  margin-top: 4.3mm;
+  margin-right: 4.3mm;
+  margin-bottom: 4.3mm;
+}
+
+.name-of-surah-translated {
+  top: 0mm;
+  left: 10mm;
+  
+}
+.name-of-surah-arabic {
+  top: 10mm;
+  left: 10mm;
 }
 
 .element {
-	width: 30mm;
-	height: 30mm;
-	background: #3498db;
-	-webkit-print-color-adjust: exact;
+  top: 0mm;
+  left: 50mm;
+  width: 30mm;
+  height: 30mm;
+  background: #3498db;
+  -webkit-print-color-adjust: exact;
+
+  position: absolute;
 }
 
 
-.element2 {
-	margin-left: 50mm;
-	width: 30mm;
-	height: 30mm;
-	background: red;
-	-webkit-print-color-adjust: exact;
+
+@font-face {
+  font-family: "AmiriQuranColored";
+  src: url("./fonts/Amiri_Quran_colored/AmiriQuranColored.woff2")
+      format("woff2"),
+    url("./fonts/Amiri_Quran_colored/AmiriQuranColored-Regular.woff")
+      format("woff"),
+    url("./fonts/Amiri_Quran_colored/AmiriQuranColored.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-.element3 {
-	margin-top: 100mm;
-	margin-left: 50mm;
-	width: 30mm;
-	height: 30mm;
-	background: red;
-	-webkit-print-color-adjust: exact;
+body {
+  font-family: "AmiriQuranColored";
 }
 
+.Kh {
+  color: #c0c0c0;
+}
+.Gh {
+  color: #008080;
+}
+.GhSh {
+  color: #00a0a0;
+}
+.ZQ {
+  color: #000080;
+}
+.KhQ {
+  color: #808080;
+}
+
+.DW {
+  color: #c0c0c0;
+}
+.KhW {
+  color: #808080;
+}
+.ZW {
+  color: #000080;
+}
+.DY {
+  color: #008080;
+}
+.DJ {
+  color: #008080;
+}
+.IM {
+  color: #a0f000;
+}
+
+.ML {
+  color: #990033;
+}
+.MWT {
+  color: #cc0000;
+}
+.MS {
+  color: #ff6600;
+}
+.MS2 {
+  color: #604600;
+}
+.MJF {
+  color: #6600cc;
+}
+.MB {
+  color: #ff6600;
+}
+.Q {
+  color: #0000f0;
+}
+.HM {
+  color: #cc0000;
+}
+.H {
+  color: #ff6600;
+}
+.HmI {
+  color: #ff0000;
+}
+.HmU {
+  color: #ff0000;
+}
+.HmA {
+  color: #66ccff;
+}
+.LaY {
+  color: #cccccc;
+}
+.EdAyh {
+  color: #c0c0c0;
+}
+.EndOfAyah {
+  color: #c0c0c0;
+}
+.Th {
+  color: #0000ff;
+}
+.Rq {
+  color: #bb0000;
+}
+.RqW {
+  color: #ff4600;
+}
+.TqQ {
+  color: #ff00f6;
+}
+.TqL {
+  color: #ff0000;
+}
+.TfL {
+  color: #0000ff;
+}
