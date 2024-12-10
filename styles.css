@@ -1,51 +1,5 @@
 @import "./node_modules/bootstrap/dist/css/bootstrap.css";
 
-@font-face {
-  font-family: "AmiriQuranColored";
-  src: url("./fonts/AmiriQuranColored/AmiriQuranColored.woff2") format("woff2"),
-    url("./fonts/AmiriQuranColored/AmiriQuranColored-Regular.woff")
-      format("woff"),
-    url("./fonts/AmiriQuranColored/AmiriQuranColored.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "AmiriRegular";
-  src: url("./fonts/Amiri/Amiri-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Hafs";
-  src: url("./fonts/Hafs/hafs.woff2") format("woff2"),
-    url("./fonts/Hafs/hafs.woff") format("woff"),
-    url("./fonts/Hafs/hafs.otf") format("opentype"),
-    url("./fonts/Hafs/hafs.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "NotoNaskhArabic";
-  src: url("./fonts/NotoNaskhArabic/NotoNaskhArabic-Regular.woff2")
-      format("woff2"),
-    url("./fonts/NotoNaskhArabic/NotoNaskhArabic-Regular.woff") format("woff"),
-    url("./fonts/NotoNaskhArabic/NotoNaskhArabic-Regular.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "NotoSansArabic";
-  src: url("./fonts/NotoSansArabic/static/static/NotoSansArabic-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-
 html,
 body {
   /* Styles for better appearance on screens only -- are reset to defaults in print styles later */
@@ -57,7 +11,8 @@ body {
   /* Use a non-white background color to make the content areas stick out from the full page box */
   background-color: #eee;
 
-  font-family: "NotoSansArabic";
+  /* other arabic fonts don't play well when opening them in photoshop */
+  font-family: "Times New Roman";
 }
 
 /* Styles that are shared by all elements */
