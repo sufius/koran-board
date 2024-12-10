@@ -1,0 +1,102 @@
+.arabic {
+  direction: rtl;
+  font-size: 1.5rem;
+}
+
+.translated {
+  color: #0d79f2;
+}
+
+.name-of-surah {
+  top: 5mm;
+  left: 5mm;
+}
+
+/* ====================== */
+
+.basmala-transcribed {
+  top: 17mm;
+  left: 47.6mm;
+}
+
+.basmala-translated {
+  top: 23mm;
+  left: 47.6mm;
+}
+
+.basmala-arabic {
+  top: 31mm;
+  right: 5mm;
+}
+
+/* ====================== */
+
+.all-ayat-together-button {
+  top: 38.4mm;
+  left: 42.6mm;
+}
+
+.all-ayat-together-transcribed {
+  top: 38.4mm;
+  left: 47.6mm;
+}
+
+.all-ayat-together-translated {
+  top: 44.4mm;
+  left: 47.6mm;
+}
+
+.all-ayat-together-arabic {
+  top: 52.4mm;
+  right: 5mm;
+}
+
+/* ====================== */
+
+.hands-image {
+    top: 126.9mm;
+    left: 32.1mm;
+    width: 293.3mm;
+    height: 110.6mm;
+}
+
+.button-1 {
+    top: 122.0mm;
+    left: 73.9mm;
+}
+.button-2 {
+    top: 122.0mm;
+    left: 107.3mm;
+}
+.button-3 {
+    top: 122.0mm;
+    left: 140.8mm;
+}
+.button-4 {
+    top: 159.4mm;
+    left: 155.0mm;
+}
+.button-5 {
+    top: 217.9mm;
+    left: 155.0mm;
+}
+.button-6 {
+    top: 217.9mm;
+    left: 202.5mm;
+}
+.button-7 {
+    top: 159.4mm;
+    left: 202.5mm;
+}
+.button-8 {
+    top: 122.0mm;
+    left: 216.7mm;
+}
+.button-9 {
+    top: 122.0mm;
+    left: 250.3mm;
+}
+.button-10 {
+    top: 122.0mm;
+    left: 283.5mm;
+}
