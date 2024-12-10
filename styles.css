@@ -40,7 +40,7 @@
 
 @font-face {
   font-family: "NotoSansArabic";
-  src: url("./fonts/NotoSansArabic/static/static/NotoSansArabic-Regular.ttf") format("truetype");
+  src: url("./fonts/NotoSansArabic/static/NotoSansArabic-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -57,7 +57,8 @@ body {
   /* Use a non-white background color to make the content areas stick out from the full page box */
   background-color: #eee;
 
-  font-family: "NotoNaskhArabic";
+  /* font-family: "NotoNaskhArabic"; */
+  font-family: "Times New Roman", Times, serif;
 }
 
 /* Styles that are shared by all elements */
