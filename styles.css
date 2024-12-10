@@ -57,7 +57,7 @@ body {
   /* Use a non-white background color to make the content areas stick out from the full page box */
   background-color: #eee;
 
-  font-family: "NotoSansArabic";
+  font-family: "NotoNaskhArabic";
 }
 
 /* Styles that are shared by all elements */
@@ -112,9 +112,9 @@ body {
   height: 100%;
 
   /* Reflect the paper width in the screen rendering (must match size from @page rule) */
-  width: 297mm;
+  width: 339.6mm;
   /* Reflect the paper height in the screen rendering (must match size from @page rule) */
-  min-height: 210mm;
+  min-height: 239.6mm;
 
   /* Reflect the actual page margin/padding on paper in the screen rendering (must match margin from @page rule) */
   padding-left: 4.3mm;
@@ -131,7 +131,7 @@ body {
   /* You can only change the size, margins, orphans, widows and page breaks here */
 
   /* Paper size and page orientation */
-  size: 297mm 210mm;
+  size: 339.6mm 239.6mm;
 
   /* Margin per single side of the page */
   margin-left: 4.3mm;
