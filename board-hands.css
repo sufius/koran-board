@@ -1,53 +1,48 @@
-.arabic {
-  direction: rtl;
-  font-size: 1.5rem;
-}
-
-.translated {
-  color: #0d79f2;
-}
-
 .name-of-surah {
   top: 5mm;
   left: 5mm;
+}
+.ayat {
+  top: 5mm;
+  right: 5mm;
 }
 
 /* ====================== */
 
 .basmala-transcribed {
-  top: 17mm;
-  left: 47.6mm;
+  top: 30.8mm;
+  left: 48.5mm;
 }
 
 .basmala-translated {
-  top: 23mm;
-  left: 47.6mm;
+  top: 36.8mm;
+  left: 48.5mm;
 }
 
 .basmala-arabic {
-  top: 31mm;
+  top: 44.8mm;
   right: 5mm;
 }
 
 /* ====================== */
 
 .all-ayat-together-button {
-  top: 38.4mm;
-  left: 42.6mm;
+  top: 52.2mm;
+  left: 44.4mm;
 }
 
 .all-ayat-together-transcribed {
-  top: 38.4mm;
-  left: 47.6mm;
+  top: 52.2mm;
+  left: 48.5mm;
 }
 
 .all-ayat-together-translated {
-  top: 44.4mm;
-  left: 47.6mm;
+  top: 58.2mm;
+  left: 48.5mm;
 }
 
 .all-ayat-together-arabic {
-  top: 52.4mm;
+  top: 66.2mm;
   right: 5mm;
 }
 
@@ -56,47 +51,238 @@
 .hands-image {
     top: 126.9mm;
     left: 32.1mm;
-    width: 293.3mm;
+    width: 295.3mm;
     height: 110.6mm;
 }
 
+.pmb-translate-y-and-rotate {
+  transform-origin: bottom left;
+  transform: rotate(295deg) !important;
+}
+
+
+.button-1-number {
+  top: 122.0mm;
+  left: 66.9mm;
+}
 .button-1 {
-    top: 122.0mm;
-    left: 73.9mm;
+  top: 122.0mm;
+  left: 73.9mm;
+}
+.button-1-transcription {
+  top: 119.5mm;
+  left: 82.9mm;
+}
+
+
+.button-2-number {
+  top: 122.0mm;
+  left: 100.9mm;
 }
 .button-2 {
     top: 122.0mm;
-    left: 107.3mm;
+    left: 107.9mm;
+}
+.button-2-transcription {
+  top: 119.5mm;
+  left: 116.9mm;
+}
+
+
+.button-3-number {
+  top: 122.0mm;
+  left: 133.8mm;
 }
 .button-3 {
     top: 122.0mm;
     left: 140.8mm;
 }
+.button-3-transcription {
+  top: 119.5mm;
+  left: 149.8mm;
+}
+
+
+.button-4-number {
+  top: 159.4mm;
+  left: 148.0mm;
+}
 .button-4 {
     top: 159.4mm;
     left: 155.0mm;
+}
+.button-4-transcription {
+  top: 159.4mm;
+  left: 164.0mm;
+}
+
+
+.button-5-number {
+  top: 217.9mm;
+  left: 148.0mm;
 }
 .button-5 {
     top: 217.9mm;
     left: 155.0mm;
 }
+.button-5-transcription {
+  top: 217.9mm;
+  left: 164.0mm;
+}
+
+
+.button-6-number {
+  top: 217.9mm;
+  left: 195.5mm;
+}
 .button-6 {
     top: 217.9mm;
     left: 202.5mm;
+}
+.button-6-transcription {
+  top: 217.9mm;
+  left: 211.5mm;
+}
+
+
+.button-7-number {
+  top: 159.4mm;
+  left: 195.5mm;
 }
 .button-7 {
     top: 159.4mm;
     left: 202.5mm;
 }
+.button-7-transcription {
+  top: 159.4mm;
+  left: 211.5mm;
+}
+
+
+.button-8-number {
+  top: 122.0mm;
+  left: 209.7mm;
+}
 .button-8 {
     top: 122.0mm;
     left: 216.7mm;
+}
+.button-8-transcription {
+  top: 119.5mm;
+  left: 225.7mm;
+}
+
+
+.button-9-number {
+  top: 122.0mm;
+  left: 243.3mm;
 }
 .button-9 {
     top: 122.0mm;
     left: 250.3mm;
 }
+.button-9-transcription {
+  top: 119.5mm;
+  left: 259.3mm;
+}
+
+
+.button-10-number {
+  top: 122.0mm;
+  left: 275.5mm;
+}
 .button-10 {
     top: 122.0mm;
     left: 283.5mm;
+}
+.button-10-transcription {
+  top: 119.5mm;
+  left: 292.5mm;
+}
+
+/* ====================== */
+
+.pmb-rectangle {
+  height: 5mm;
+  width: 5mm;
+  z-index: 2;
+}
+.pmb-rectangle-label {
+  width: 30mm;
+}
+
+.pmb-legend-tajweed-background {
+  height: 54mm;
+  width: 45mm;
+  top: 184mm;
+  left: 3mm;
+  z-index: 1;
+}
+
+.rectangle-KhQ {
+  top: 191mm;
+  left: 7mm;
+}
+.KhQ-image {
+  top: 191mm;
+  left: 10.5mm;
+  height: 7mm;
+}
+.rectangle-KhQ-label {
+  top: 191mm;
+  left: 18mm;
+}
+
+
+
+.rectangle-TqL {
+  top: 204mm;
+  left: 7mm;
+}
+.TqL-image {
+  top: 204mm;
+  left: 10.5mm;
+  height: 7mm;
+}
+.rectangle-TqL-label {
+  top: 204mm;
+  left: 18mm;
+}
+
+
+.rectangle-MS {
+  top: 214mm;
+  left: 7mm;
+}
+.rectangle-MS2 {
+  top: 220mm;
+  left: 7mm;
+}
+.MS-image {
+  top: 217mm;
+  left: 10.5mm;
+  height: 7mm;
+}
+.rectangle-MS-label {
+  top: 217mm;
+  left: 18mm;
+}
+
+
+.rectangle-LaY {
+  top: 228mm;
+  left: 7mm;
+}
+.rectangle-HmA {
+  top: 234mm;
+  left: 7mm;
+}
+.LaY-image {
+  top: 231mm;
+  left: 10.5mm;
+  height: 7mm;
+}
+.rectangle-HmA-label {
+  top: 231mm;
+  left: 18mm;
 }

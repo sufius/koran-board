@@ -1,5 +1,5 @@
+@charset "UTF-8";
 @import "./node_modules/bootstrap/dist/css/bootstrap.css";
-
 @font-face {
   font-family: "NotoNaskhArabic";
   src: url("./fonts/NotoNaskhArabic/NotoNaskhArabic-Regular.woff2")
@@ -22,7 +22,16 @@ body {
   /* Use a non-white background color to make the content areas stick out from the full page box */
   background-color: #eee;
 
-  font-family: "NotoNaskhArabic";
+  font-family:'Times New Roman', Times, serif;
+}
+
+.noto-naskh-arabic-400 {
+  font-family: "NotoNaskhArabic", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  direction: rtl;
+  font-size: 1.5rem;
 }
 
 /* Styles that are shared by all elements */
@@ -77,9 +86,9 @@ body {
   height: 100%;
 
   /* Reflect the paper width in the screen rendering (must match size from @page rule) */
-  width: 339.6mm;
+  width: 348.8mm;
   /* Reflect the paper height in the screen rendering (must match size from @page rule) */
-  min-height: 239.6mm;
+  min-height: 251.0mm;
 
   /* Reflect the actual page margin/padding on paper in the screen rendering (must match margin from @page rule) */
   padding-left: 4.3mm;
@@ -96,7 +105,7 @@ body {
   /* You can only change the size, margins, orphans, widows and page breaks here */
 
   /* Paper size and page orientation */
-  size: 339.6mm 239.6mm;
+  size: 348.8mm 251.0mm;
 
   /* Margin per single side of the page */
   margin-left: 4.3mm;
@@ -105,101 +114,299 @@ body {
   margin-bottom: 4.3mm;
 }
 
+:root {
+  --pmb-Kh: #c0c0c0;
+  --pmb-Gh: #008080;
+  --pmb-GhSh: #00a0a0;
+  --pmb-ZQ: #000080;
+  --pmb-KhQ: #808080;
+  --pmb-DW: #c0c0c0;
+  --pmb-KhW: #808080;
+  --pmb-ZW: #000080;
+  --pmb-DY: #008080;
+  --pmb-DJ: #008080;
+  --pmb-IM: #a0f000;
+  --pmb-ML: #990033;
+  --pmb-MWT: #cc0000;
+  --pmb-MS: #ff6600;
+  --pmb-MS2: #604600;
+  --pmb-MJF: #6600cc;
+  --pmb-MB: #ff6600;
+  --pmb-Q: #0000f0;
+  --pmb-HM: #cc0000;
+  --pmb-H: #ff6600;
+  --pmb-HmI: #ff0000;
+  --pmb-HmU: #ff0000;
+  --pmb-HmA: #66ccff;
+  --pmb-LaY: #cccccc;
+  --pmb-EdAyh: #c0c0c0;
+  --pmb-EndOfAyah: #c0c0c0;
+  --pmb-Th: #0000ff;
+  --pmb-Rq: #bb0000;
+  --pmb-RqW: #ff4600;
+  --pmb-TqQ: #ff00f6;
+  --pmb-TqL: #ff0000;
+  --pmb-TfL: #0000ff;
+}
+
+.translated {
+  color: var(--bs-primary);
+}
+
 .Kh {
-  color: #c0c0c0;
+  color: var(--pmb-Kh);
 }
+
 .Gh {
-  color: #008080;
+  color: var(--pmb-Gh);
 }
+
 .GhSh {
-  color: #00a0a0;
+  color: var(--pmb-GhSh);
 }
+
 .ZQ {
-  color: #000080;
+  color: var(--pmb-ZQ);
 }
+
 .KhQ {
-  color: #808080;
+  color: var(--pmb-KhQ);
 }
 
 .DW {
-  color: #c0c0c0;
+  color: var(--pmb-DW);
 }
+
 .KhW {
-  color: #808080;
+  color: var(--pmb-KhW);
 }
+
 .ZW {
-  color: #000080;
+  color: var(--pmb-ZW);
 }
+
 .DY {
-  color: #008080;
+  color: var(--pmb-DY);
 }
+
 .DJ {
-  color: #008080;
+  color: var(--pmb-DJ);
 }
+
 .IM {
-  color: #a0f000;
+  color: var(--pmb-IM);
 }
 
 .ML {
-  color: #990033;
+  color: var(--pmb-ML);
 }
+
 .MWT {
-  color: #cc0000;
+  color: var(--pmb-MWT);
 }
+
 .MS {
-  color: #ff6600;
+  color: var(--pmb-MS);
 }
+
 .MS2 {
-  color: #604600;
+  color: var(--pmb-MS2);
 }
+
 .MJF {
-  color: #6600cc;
+  color: var(--pmb-MJF);
 }
+
 .MB {
-  color: #ff6600;
+  color: var(--pmb-MB);
 }
+
 .Q {
-  color: #0000f0;
+  color: var(--pmb-Q);
 }
+
 .HM {
-  color: #cc0000;
+  color: var(--pmb-HM);
 }
+
 .H {
-  color: #ff6600;
+  color: var(--pmb-H);
 }
+
 .HmI {
-  color: #ff0000;
+  color: var(--pmb-HmI);
 }
+
 .HmU {
-  color: #ff0000;
+  color: var(--pmb-HmU);
 }
+
 .HmA {
-  color: #66ccff;
+  color: var(--pmb-HmA);
 }
+
 .LaY {
-  color: #cccccc;
+  color: var(--pmb-LaY);
 }
+
 .EdAyh {
-  color: #c0c0c0;
+  color: var(--pmb-EdAyh);
 }
+
 .EndOfAyah {
-  color: #c0c0c0;
+  color: var(--pmb-EndOfAyah);
 }
+
 .Th {
-  color: #0000ff;
+  color: var(--pmb-Th);
 }
+
 .Rq {
-  color: #bb0000;
+  color: var(--pmb-Rq);
 }
+
 .RqW {
-  color: #ff4600;
+  color: var(--pmb-RqW);
 }
+
 .TqQ {
-  color: #ff00f6;
+  color: var(--pmb-TqQ);
 }
+
 .TqL {
-  color: #ff0000;
+  color: var(--pmb-TqL);
 }
+
 .TfL {
-  color: #0000ff;
+  color: var(--pmb-TfL);
+}
+
+/* ==================== */
+
+.background-Kh {
+  background-color: var(--pmb-Kh);
+}
+
+.background-Gh {
+  background-color: var(--pmb-Gh);
+}
+
+.background-GhSh {
+  background-color: var(--pmb-GhSh);
+}
+
+.background-ZQ {
+  background-color: var(--pmb-ZQ);
+}
+
+.background-KhQ {
+  background-color: var(--pmb-KhQ);
+}
+
+.background-DW {
+  background-color: var(--pmb-DW);
+}
+
+.background-KhW {
+  background-color: var(--pmb-KhW);
+}
+
+.background-ZW {
+  background-color: var(--pmb-ZW);
+}
+
+.background-DY {
+  background-color: var(--pmb-DY);
+}
+
+.background-DJ {
+  background-color: var(--pmb-DJ);
+}
+
+.background-IM {
+  background-color: var(--pmb-IM);
+}
+
+.background-ML {
+  background-color: var(--pmb-ML);
+}
+
+.background-MWT {
+  background-color: var(--pmb-MWT);
+}
+
+.background-MS {
+  background-color: var(--pmb-MS);
+}
+
+.background-MS2 {
+  background-color: var(--pmb-MS2);
+}
+
+.background-MJF {
+  background-color: var(--pmb-MJF);
+}
+
+.background-MB {
+  background-color: var(--pmb-MB);
+}
+
+.background-Q {
+  background-color: var(--pmb-Q);
+}
+
+.background-HM {
+  background-color: var(--pmb-HM);
+}
+
+.background-H {
+  background-color: var(--pmb-H);
+}
+
+.background-HmI {
+  background-color: var(--pmb-HmI);
+}
+
+.background-HmU {
+  background-color: var(--pmb-HmU);
+}
+
+.background-HmA {
+  background-color: var(--pmb-HmA);
+}
+
+.background-LaY {
+  background-color: var(--pmb-LaY);
+}
+
+.background-EdAyh {
+  background-color: var(--pmb-EdAyh);
+}
+
+.background-EndOfAyah {
+  background-color: var(--pmb-EndOfAyah);
+}
+
+.background-Th {
+  background-color: var(--pmb-Th);
+}
+
+.background-Rq {
+  background-color: var(--pmb-Rq);
+}
+
+.background-RqW {
+  background-color: var(--pmb-RqW);
+}
+
+.background-TqQ {
+  background-color: var(--pmb-TqQ);
+}
+
+.background-TqL {
+  background-color: var(--pmb-TqL);
+}
+
+.background-TfL {
+  background-color: var(--pmb-TfL);
 }
