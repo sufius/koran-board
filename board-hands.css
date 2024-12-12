@@ -11,12 +11,12 @@
 
 .basmala-transcribed {
   top: 30.8mm;
-  left: 48.5mm;
+  left: 50.4mm;
 }
 
 .basmala-translated {
   top: 36.8mm;
-  left: 48.5mm;
+  left: 50.4mm;
 }
 
 .basmala-arabic {
@@ -29,16 +29,20 @@
 .all-ayat-together-button {
   top: 52.2mm;
   left: 44.4mm;
+  background-color: var(--bs-warning);
+  border-radius: 50%;
+  height: 8mm;
+  width: 8mm;
 }
 
 .all-ayat-together-transcribed {
   top: 52.2mm;
-  left: 48.5mm;
+  left: 50.4mm;
 }
 
 .all-ayat-together-translated {
   top: 58.2mm;
-  left: 48.5mm;
+  left: 50.4mm;
 }
 
 .all-ayat-together-arabic {
@@ -51,7 +55,7 @@
 .hands-image {
     top: 126.9mm;
     left: 32.1mm;
-    width: 295.3mm;
+    width: 297.3mm;
     height: 110.6mm;
 }
 
@@ -63,141 +67,181 @@
 
 .button-1-number {
   top: 122.0mm;
-  left: 66.9mm;
+  left: 66.5mm;
 }
 .button-1 {
   top: 122.0mm;
   left: 73.9mm;
+  background-color: var(--bs-warning);
+  border-radius: 50%;
+  height: 8mm;
+  width: 8mm;
 }
 .button-1-transcription {
   top: 119.5mm;
-  left: 82.9mm;
+  left: 83.5mm;
 }
 
 
 .button-2-number {
   top: 122.0mm;
-  left: 100.9mm;
+  left: 100.5mm;
 }
 .button-2 {
     top: 122.0mm;
     left: 107.9mm;
+    background-color: var(--bs-warning);
+    border-radius: 50%;
+    height: 8mm;
+    width: 8mm;
 }
 .button-2-transcription {
   top: 119.5mm;
-  left: 116.9mm;
+  left: 117.5mm;
 }
 
 
 .button-3-number {
   top: 122.0mm;
-  left: 133.8mm;
+  left: 133.4mm;
 }
 .button-3 {
     top: 122.0mm;
     left: 140.8mm;
+    background-color: var(--bs-warning);
+    border-radius: 50%;
+    height: 8mm;
+    width: 8mm;
 }
 .button-3-transcription {
   top: 119.5mm;
-  left: 149.8mm;
+  left: 150.6mm;
 }
 
 
 .button-4-number {
   top: 159.4mm;
-  left: 148.0mm;
+  left: 147.6mm;
 }
 .button-4 {
     top: 159.4mm;
     left: 155.0mm;
+    background-color: var(--bs-warning);
+    border-radius: 50%;
+    height: 8mm;
+    width: 8mm;
 }
 .button-4-transcription {
   top: 159.4mm;
-  left: 164.0mm;
+  left: 164.6mm;
 }
 
 
 .button-5-number {
   top: 217.9mm;
-  left: 148.0mm;
+  left: 147.6mm;
 }
 .button-5 {
     top: 217.9mm;
     left: 155.0mm;
+    background-color: var(--bs-warning);
+    border-radius: 50%;
+    height: 8mm;
+    width: 8mm;
 }
 .button-5-transcription {
   top: 217.9mm;
-  left: 164.0mm;
+  left: 164.6mm;
 }
 
 
 .button-6-number {
   top: 217.9mm;
-  left: 195.5mm;
+  left: 195.1mm;
 }
 .button-6 {
     top: 217.9mm;
     left: 202.5mm;
+    background-color: var(--bs-warning);
+    border-radius: 50%;
+    height: 8mm;
+    width: 8mm;
 }
 .button-6-transcription {
   top: 217.9mm;
-  left: 211.5mm;
+  left: 212.1mm;
 }
 
 
 .button-7-number {
   top: 159.4mm;
-  left: 195.5mm;
+  left: 195.1mm;
 }
 .button-7 {
     top: 159.4mm;
     left: 202.5mm;
+    background-color: var(--bs-warning);
+    border-radius: 50%;
+    height: 8mm;
+    width: 8mm;
 }
 .button-7-transcription {
   top: 159.4mm;
-  left: 211.5mm;
+  left: 212.1mm;
 }
 
 
 .button-8-number {
   top: 122.0mm;
-  left: 209.7mm;
+  left: 209.3mm;
 }
 .button-8 {
     top: 122.0mm;
     left: 216.7mm;
+    background-color: var(--bs-warning);
+    border-radius: 50%;
+    height: 8mm;
+    width: 8mm;
 }
 .button-8-transcription {
   top: 119.5mm;
-  left: 225.7mm;
+  left: 226.3mm;
 }
 
 
 .button-9-number {
   top: 122.0mm;
-  left: 243.3mm;
+  left: 242.9mm;
 }
 .button-9 {
     top: 122.0mm;
     left: 250.3mm;
+    background-color: var(--bs-warning);
+    border-radius: 50%;
+    height: 8mm;
+    width: 8mm;
 }
 .button-9-transcription {
   top: 119.5mm;
-  left: 259.3mm;
+  left: 259.9mm;
 }
 
 
 .button-10-number {
   top: 122.0mm;
-  left: 275.5mm;
+  left: 275.1mm;
 }
 .button-10 {
     top: 122.0mm;
     left: 283.5mm;
+    background-color: var(--bs-warning);
+    border-radius: 50%;
+    height: 8mm;
+    width: 8mm;
 }
 .button-10-transcription {
   top: 119.5mm;
-  left: 292.5mm;
+  left: 293.1mm;
 }
 
 /* ====================== */
