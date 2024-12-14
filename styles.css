@@ -151,6 +151,7 @@ body {
 
 .translated {
   color: var(--bs-primary);
+  line-height: 1rem;
 }
 
 .Kh {
@@ -409,4 +410,111 @@ body {
 
 .background-TfL {
   background-color: var(--pmb-TfL);
+}
+
+
+
+/* =============================== */
+
+.pmb-module-footprint {
+  top: 74.3mm;
+  width: 41.2mm;
+  height: 97.1mm;
+}
+.pmb-module-usb-footprint {
+  top: 117.3mm;
+  left: 40.9mm;
+  width: 11.9mm;
+  height: 9.3mm;
+}
+
+
+/* ====================== */
+
+.pmb-rectangle {
+  height: 5mm;
+  width: 5mm;
+  z-index: 2;
+}
+.pmb-rectangle-label {
+  width: 30mm;
+}
+
+.pmb-legend-tajweed-background {
+  height: 54mm;
+  width: 44mm;
+  top: 184mm;
+  left: 0mm;
+}
+
+.rectangle-KhQ {
+  top: 191mm;
+  left: 7mm;
+}
+.KhQ-image {
+  top: 191mm;
+  left: 10.5mm;
+  height: 7mm;
+}
+.rectangle-KhQ-label {
+  top: 191mm;
+  left: 18mm;
+}
+
+
+
+.rectangle-TqL {
+  top: 204mm;
+  left: 7mm;
+}
+.TqL-image {
+  top: 204mm;
+  left: 10.5mm;
+  height: 7mm;
+}
+.rectangle-TqL-label {
+  top: 204mm;
+  left: 18mm;
+}
+
+
+.rectangle-MS {
+  top: 214mm;
+  left: 7mm;
+}
+.rectangle-MS2 {
+  top: 220mm;
+  left: 7mm;
+}
+.rectangle-MJF {
+  top: 220mm;
+  left: 13mm;
+}
+.MS-image {
+  top: 217mm;
+  left: 16mm;
+  height: 7mm;
+}
+.rectangle-MS-label {
+  top: 217mm;
+  left: 23mm;
+}
+
+
+.rectangle-LaY {
+  top: 228mm;
+  left: 7mm;
+}
+.rectangle-HmA {
+  top: 234mm;
+  left: 7mm;
+}
+.LaY-image {
+  top: 231mm;
+  left: 10.5mm;
+  height: 7mm;
+}
+.rectangle-HmA-label {
+  top: 231mm;
+  left: 18mm;
 }

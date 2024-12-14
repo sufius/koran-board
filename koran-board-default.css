@@ -1,332 +1,264 @@
-.name-of-surah {
-  top: 5mm;
-  left: 5mm;
+.surah-number {
+  top: 2.45mm;
+  left: 2.5mm;
 }
-.ayat {
-  top: 5mm;
-  right: 5mm;
+.ayat-numbers {
+  top: 10.0mm;
+  left: 1.00mm;
 }
+.surah-name-transcribed {
+  top: 17.5mm;
+  left: 2.5mm;
+}
+.surah-name-translated {
+  top: 25.0mm;
+  left: 2.5mm;
+}
+.surah-name-arabic {
+  top: 32.5mm;
+  left: 2.5mm;
+}
+
 
 /* ====================== */
 
-.basmala-transcribed {
-  top: 30.8mm;
-  left: 50.4mm;
-}
-
-.basmala-translated {
-  top: 36.8mm;
-  left: 50.4mm;
-}
-
-.basmala-arabic {
-  top: 44.8mm;
-  right: 5mm;
-}
-
-/* ====================== */
-
-.all-ayat-together-button {
-  top: 52.2mm;
-  left: 44.4mm;
-  background-color: var(--bs-warning);
-  border-radius: 50%;
-  height: 8mm;
-  width: 8mm;
-}
-
-.all-ayat-together-transcribed {
-  top: 52.2mm;
-  left: 50.4mm;
-}
-
-.all-ayat-together-translated {
-  top: 58.2mm;
-  left: 50.4mm;
-}
-
-.all-ayat-together-arabic {
-  top: 66.2mm;
-  right: 5mm;
-}
-
-/* ====================== */
-
-.hands-image {
-    top: 126.9mm;
-    left: 32.1mm;
-    width: 297.3mm;
-    height: 110.6mm;
-}
-
-.pmb-translate-y-and-rotate {
-  transform-origin: bottom left;
-  transform: rotate(295deg) !important;
-}
-
-
-.button-1-number {
-  top: 122.0mm;
-  left: 66.5mm;
-}
 .button-1 {
-  top: 122.0mm;
-  left: 73.9mm;
+  top: 4.9mm;
+  left: 52.0mm;
   background-color: var(--bs-warning);
   border-radius: 50%;
   height: 8mm;
   width: 8mm;
 }
-.button-1-transcription {
-  top: 119.5mm;
-  left: 83.5mm;
+.button-1-transcribed {
+  top: 4.9mm;
+  left: 58.0mm;
+}
+.button-1-translated {
+  top: 10.9mm;
+  left: 58.0mm;
+}
+.button-1-arabic {
+  top: 18.9mm;
+  right: 5mm;
 }
 
 
-.button-2-number {
-  top: 122.0mm;
-  left: 100.5mm;
-}
 .button-2 {
-    top: 122.0mm;
-    left: 107.9mm;
-    background-color: var(--bs-warning);
-    border-radius: 50%;
-    height: 8mm;
-    width: 8mm;
+  top: 26.2mm;
+  left: 52.0mm;
+  background-color: var(--bs-warning);
+  border-radius: 50%;
+  height: 8mm;
+  width: 8mm;
 }
-.button-2-transcription {
-  top: 119.5mm;
-  left: 117.5mm;
+.button-2-transcribed {
+  top: 26.2mm;
+  left: 58.0mm;
+}
+.button-2-translated {
+  top: 32.2mm;
+  left: 58.0mm;
+}
+.button-2-arabic {
+  top: 40.2mm;
+  right: 5mm;
 }
 
 
-.button-3-number {
-  top: 122.0mm;
-  left: 133.4mm;
-}
 .button-3 {
-    top: 122.0mm;
-    left: 140.8mm;
-    background-color: var(--bs-warning);
-    border-radius: 50%;
-    height: 8mm;
-    width: 8mm;
+  top: 47.5mm;
+  left: 52.0mm;
+  background-color: var(--bs-warning);
+  border-radius: 50%;
+  height: 8mm;
+  width: 8mm;
 }
-.button-3-transcription {
-  top: 119.5mm;
-  left: 150.6mm;
+.button-3-transcribed {
+  top: 47.5mm;
+  left: 58.0mm;
+}
+.button-3-translated {
+  top: 53.5mm;
+  left: 58.0mm;
+}
+.button-3-arabic {
+  top: 61.5mm;
+  right: 5mm;
 }
 
 
-.button-4-number {
-  top: 159.4mm;
-  left: 147.6mm;
-}
 .button-4 {
-    top: 159.4mm;
-    left: 155.0mm;
-    background-color: var(--bs-warning);
-    border-radius: 50%;
-    height: 8mm;
-    width: 8mm;
+  top: 68.8mm;
+  left: 52.0mm;
+  background-color: var(--bs-warning);
+  border-radius: 50%;
+  height: 8mm;
+  width: 8mm;
 }
-.button-4-transcription {
-  top: 159.4mm;
-  left: 164.6mm;
+.button-4-transcribed {
+  top: 68.8mm;
+  left: 58.0mm;
+}
+.button-4-translated {
+  top: 74.8mm;
+  left: 58.0mm;
+}
+.button-4-arabic {
+  top: 82.8mm;
+  right: 5mm;
 }
 
 
-.button-5-number {
-  top: 217.9mm;
-  left: 147.6mm;
-}
 .button-5 {
-    top: 217.9mm;
-    left: 155.0mm;
-    background-color: var(--bs-warning);
-    border-radius: 50%;
-    height: 8mm;
-    width: 8mm;
+  top: 90.1mm;
+  left: 52.0mm;
+  background-color: var(--bs-warning);
+  border-radius: 50%;
+  height: 8mm;
+  width: 8mm;
 }
-.button-5-transcription {
-  top: 217.9mm;
-  left: 164.6mm;
+.button-5-transcribed {
+  top: 90.1mm;
+  left: 58.0mm;
+}
+.button-5-translated {
+  top: 96.1mm;
+  left: 58.0mm;
+}
+.button-5-arabic {
+  top: 104.1mm;
+  right: 5mm;
 }
 
 
-.button-6-number {
-  top: 217.9mm;
-  left: 195.1mm;
-}
 .button-6 {
-    top: 217.9mm;
-    left: 202.5mm;
-    background-color: var(--bs-warning);
-    border-radius: 50%;
-    height: 8mm;
-    width: 8mm;
+  top: 111.4mm;
+  left: 52.0mm;
+  background-color: var(--bs-warning);
+  border-radius: 50%;
+  height: 8mm;
+  width: 8mm;
 }
-.button-6-transcription {
-  top: 217.9mm;
-  left: 212.1mm;
+.button-6-transcribed {
+  top: 111.4mm;
+  left: 58.0mm;
+}
+.button-6-translated {
+  top: 117.4mm;
+  left: 58.0mm;
+}
+.button-6-arabic {
+  top: 125.4mm;
+  right: 5mm;
 }
 
 
-.button-7-number {
-  top: 159.4mm;
-  left: 195.1mm;
-}
 .button-7 {
-    top: 159.4mm;
-    left: 202.5mm;
-    background-color: var(--bs-warning);
-    border-radius: 50%;
-    height: 8mm;
-    width: 8mm;
+  top: 132.7mm;
+  left: 52.0mm;
+  background-color: var(--bs-warning);
+  border-radius: 50%;
+  height: 8mm;
+  width: 8mm;
 }
-.button-7-transcription {
-  top: 159.4mm;
-  left: 212.1mm;
+.button-7-transcribed {
+  top: 132.7mm;
+  left: 58.0mm;
+}
+.button-7-translated {
+  top: 138.7mm;
+  left: 58.0mm;
+}
+.button-7-arabic {
+  top: 146.7mm;
+  right: 5mm;
 }
 
 
-.button-8-number {
-  top: 122.0mm;
-  left: 209.3mm;
-}
 .button-8 {
-    top: 122.0mm;
-    left: 216.7mm;
-    background-color: var(--bs-warning);
-    border-radius: 50%;
-    height: 8mm;
-    width: 8mm;
+  top: 154.0mm;
+  left: 52.0mm;
+  background-color: var(--bs-warning);
+  border-radius: 50%;
+  height: 8mm;
+  width: 8mm;
 }
-.button-8-transcription {
-  top: 119.5mm;
-  left: 226.3mm;
+.button-8-transcribed {
+  top: 154.0mm;
+  left: 58.0mm;
+}
+.button-8-translated {
+  top: 160.0mm;
+  left: 58.0mm;
+}
+.button-8-arabic {
+  top: 168.0mm;
+  right: 5mm;
 }
 
 
-.button-9-number {
-  top: 122.0mm;
-  left: 242.9mm;
-}
 .button-9 {
-    top: 122.0mm;
-    left: 250.3mm;
-    background-color: var(--bs-warning);
-    border-radius: 50%;
-    height: 8mm;
-    width: 8mm;
+  top: 175.3mm;
+  left: 52.0mm;
+  background-color: var(--bs-warning);
+  border-radius: 50%;
+  height: 8mm;
+  width: 8mm;
 }
-.button-9-transcription {
-  top: 119.5mm;
-  left: 259.9mm;
+.button-9-transcribed {
+  top: 175.3mm;
+  left: 58.0mm;
+}
+.button-9-translated {
+  top: 181.3mm;
+  left: 58.0mm;
+}
+.button-9-arabic {
+  top: 189.3mm;
+  right: 5mm;
 }
 
 
-.button-10-number {
-  top: 122.0mm;
-  left: 275.1mm;
-}
 .button-10 {
-    top: 122.0mm;
-    left: 283.5mm;
-    background-color: var(--bs-warning);
-    border-radius: 50%;
-    height: 8mm;
-    width: 8mm;
+  top: 196.6mm;
+  left: 52.0mm;
+  background-color: var(--bs-warning);
+  border-radius: 50%;
+  height: 8mm;
+  width: 8mm;
 }
-.button-10-transcription {
-  top: 119.5mm;
-  left: 293.1mm;
+.button-10-transcribed {
+  top: 196.6mm;
+  left: 58.0mm;
 }
-
-/* ====================== */
-
-.pmb-rectangle {
-  height: 5mm;
-  width: 5mm;
-  z-index: 2;
+.button-10-translated {
+  top: 202.6mm;
+  left: 58.0mm;
 }
-.pmb-rectangle-label {
-  width: 30mm;
-}
-
-.pmb-legend-tajweed-background {
-  height: 54mm;
-  width: 45mm;
-  top: 184mm;
-  left: 3mm;
-  z-index: 1;
-}
-
-.rectangle-KhQ {
-  top: 191mm;
-  left: 7mm;
-}
-.KhQ-image {
-  top: 191mm;
-  left: 10.5mm;
-  height: 7mm;
-}
-.rectangle-KhQ-label {
-  top: 191mm;
-  left: 18mm;
+.button-10-arabic {
+  top: 210.6mm;
+  right: 5mm;
 }
 
 
-
-.rectangle-TqL {
-  top: 204mm;
-  left: 7mm;
+.button-11 {
+  top: 217.9mm;
+  left: 52.0mm;
+  background-color: var(--bs-warning);
+  border-radius: 50%;
+  height: 8mm;
+  width: 8mm;
 }
-.TqL-image {
-  top: 204mm;
-  left: 10.5mm;
-  height: 7mm;
+.button-11-transcribed {
+  top: 217.9mm;
+  left: 58.0mm;
 }
-.rectangle-TqL-label {
-  top: 204mm;
-  left: 18mm;
+.button-11-translated {
+  top: 223.9mm;
+  left: 58.0mm;
 }
-
-
-.rectangle-MS {
-  top: 214mm;
-  left: 7mm;
-}
-.rectangle-MS2 {
-  top: 220mm;
-  left: 7mm;
-}
-.MS-image {
-  top: 217mm;
-  left: 10.5mm;
-  height: 7mm;
-}
-.rectangle-MS-label {
-  top: 217mm;
-  left: 18mm;
-}
-
-
-.rectangle-LaY {
-  top: 228mm;
-  left: 7mm;
-}
-.rectangle-HmA {
-  top: 234mm;
-  left: 7mm;
-}
-.LaY-image {
-  top: 231mm;
-  left: 10.5mm;
-  height: 7mm;
-}
-.rectangle-HmA-label {
-  top: 231mm;
-  left: 18mm;
+.button-11-arabic {
+  top: 231.9mm;
+  right: 5mm;
 }

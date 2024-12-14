@@ -1,8 +1,8 @@
-.name-of-surah {
+.surah-name {
   top: 5mm;
   left: 5mm;
 }
-.ayat {
+.ayat-numbers {
   top: 5mm;
   right: 5mm;
 }
@@ -242,91 +242,4 @@
 .button-10-transcription {
   top: 119.5mm;
   left: 293.1mm;
-}
-
-/* ====================== */
-
-.pmb-rectangle {
-  height: 5mm;
-  width: 5mm;
-  z-index: 2;
-}
-.pmb-rectangle-label {
-  width: 30mm;
-}
-
-.pmb-legend-tajweed-background {
-  height: 54mm;
-  width: 45mm;
-  top: 184mm;
-  left: 3mm;
-  z-index: 1;
-}
-
-.rectangle-KhQ {
-  top: 191mm;
-  left: 7mm;
-}
-.KhQ-image {
-  top: 191mm;
-  left: 10.5mm;
-  height: 7mm;
-}
-.rectangle-KhQ-label {
-  top: 191mm;
-  left: 18mm;
-}
-
-
-
-.rectangle-TqL {
-  top: 204mm;
-  left: 7mm;
-}
-.TqL-image {
-  top: 204mm;
-  left: 10.5mm;
-  height: 7mm;
-}
-.rectangle-TqL-label {
-  top: 204mm;
-  left: 18mm;
-}
-
-
-.rectangle-MS {
-  top: 214mm;
-  left: 7mm;
-}
-.rectangle-MS2 {
-  top: 220mm;
-  left: 7mm;
-}
-.MS-image {
-  top: 217mm;
-  left: 10.5mm;
-  height: 7mm;
-}
-.rectangle-MS-label {
-  top: 217mm;
-  left: 18mm;
-}
-
-
-.rectangle-LaY {
-  top: 228mm;
-  left: 7mm;
-}
-.rectangle-HmA {
-  top: 234mm;
-  left: 7mm;
-}
-.LaY-image {
-  top: 231mm;
-  left: 10.5mm;
-  height: 7mm;
-}
-.rectangle-HmA-label {
-  top: 231mm;
-  left: 18mm;
 }
