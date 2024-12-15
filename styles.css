@@ -149,10 +149,35 @@ body {
   --pmb-TfL: #0000ff;
 }
 
+/* =========================== */
+
 .translated {
   color: var(--bs-primary);
   line-height: 1rem;
 }
+.surah-number {
+  top: 2.45mm;
+  left: 2.5mm;
+}
+.ayat-numbers {
+  top: 10.0mm;
+  left: 1.00mm;
+}
+.surah-name-transcribed {
+  top: 17.5mm;
+  left: 2.5mm;
+}
+.surah-name-translated {
+  top: 25.0mm;
+  left: 2.5mm;
+}
+.surah-name-arabic {
+  top: 32.5mm;
+  left: 2.5mm;
+  font-size: 1.3rem;
+}
+
+/* =========================== */
 
 .Kh {
   color: var(--pmb-Kh);
