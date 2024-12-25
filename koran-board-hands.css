@@ -1,11 +1,11 @@
 .basmala-transcribed {
   top: 30.8mm;
-  left: 50.4mm;
+  left: 60.4mm;
 }
 
 .basmala-translated {
   top: 36.8mm;
-  left: 50.4mm;
+  left: 60.4mm;
 }
 
 .basmala-arabic {
@@ -17,7 +17,7 @@
 
 .all-ayat-together-button {
   top: 52.2mm;
-  left: 44.4mm;
+  left: 54.4mm;
   background-color: var(--bs-warning);
   border-radius: 50%;
   height: 8mm;
@@ -26,12 +26,12 @@
 
 .all-ayat-together-transcribed {
   top: 52.2mm;
-  left: 50.4mm;
+  left: 60.4mm;
 }
 
 .all-ayat-together-translated {
   top: 58.2mm;
-  left: 50.4mm;
+  left: 60.4mm;
 }
 
 .all-ayat-together-arabic {
