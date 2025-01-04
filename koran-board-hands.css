@@ -7,6 +7,9 @@
   /* background-position: top -3mm right; */
   background-position: top 180mm left 55mm;
 }
+.text-arabic {
+  -webkit-text-stroke: 0.1mm black;
+}
 
 .basmala-transcribed {
   top: 30.8mm;

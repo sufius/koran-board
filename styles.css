@@ -115,6 +115,10 @@ body {
 }
 
 :root {
+  --pmb-text-primary: #87ceeb;
+  --pmb-text-transcribed: #eddabb;
+  --pmb-text-translated: #dab473;
+  --pmb-text-arabic: #ffd700;
   --pmb-Kh: #c0c0c0;
   --pmb-Gh: #008080;
   --pmb-GhSh: #00a0a0;
@@ -151,10 +155,20 @@ body {
 
 /* =========================== */
 
-.translated {
-  color: var(--bs-primary);
+.pmb-text-primary {
+  color: var(--pmb-text-primary);
+}
+.text-transcribed {
+  color: var(--pmb-text-transcribed);
+}
+.text-translated {
+  color: var(--pmb-text-translated);
   line-height: 1rem;
 }
+.text-arabic {
+  color: var(--pmb-text-arabic);
+}
+
 .surah-number {
   top: 2.45mm;
   left: 2.5mm;
@@ -438,6 +452,16 @@ body {
 }
 
 
+/* =============================== */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid var(--pmb-text-translated);
+  margin: 1em 0;
+  padding: 0;
+}
 
 /* =============================== */
 
