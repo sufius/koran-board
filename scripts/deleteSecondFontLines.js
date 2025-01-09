@@ -13,12 +13,11 @@ const targetDir = path.join(__dirname, '../surat');
 const processFile = (filePath) => {
     const content = fs.readFileSync(filePath, 'utf-8');
 
-    // Remove empty title and class attributes
-    const processedContent = content
-        .replace(/\s*title=""/g, '') // Remove empty title attributes
-        .replace(/\s*class=""/g, '') // Remove empty class attributes
-        .replace(/\s*title=''/g, '') // Remove empty title attributes
-        .replace(/\s*class=''/g, ''); // Remove empty class attributes
+    // Replace every 'Q' inside class attribute values with 'qlq'
+    const processedContent = content.replace(
+        /class=["'][^"']*Q[^"']*["']/g,
+        (match) => match.replace('Q', 'qlq')
+    );
 
     // Write the modified content back to the file
     fs.writeFileSync(filePath, processedContent, 'utf-8');
